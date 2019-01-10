@@ -1,5 +1,5 @@
 {
-    "name": "jms/di-extra-bundle",
+    "name": "prolix/di-extra-bundle",
     "type": "symfony-bundle",
     "description": "Allows to configure dependency injection using annotations",
     "keywords": ["annotations","dependency injection"],
@@ -13,14 +13,14 @@
     ],
     "require": {
         "php": "~5.3|~7.0",
-        "symfony/framework-bundle": "~2.3|~3.0",
-        "symfony/routing": "~2.3|~3.0",
-        "symfony/http-kernel": "^2.3.24|~3.0",
-        "symfony/dependency-injection": "~2.3|~3.0",
-        "symfony/process": "~2.3|~3.0",
-        "symfony/finder": "~2.3|~3.0",
-        "jms/aop-bundle": "~1.1",
-        "jms/metadata": "~1.0"
+        "symfony/framework-bundle": "~3.0|~4.0",
+        "symfony/routing": "~3.0|~4.0",
+        "symfony/http-kernel": "~3.0|~4.0",
+        "symfony/dependency-injection": "~3.0|~4.0",
+        "symfony/process": "~3.0|~4.0",
+        "symfony/finder": "~3.0|~4.0",
+        "jms/aop-bundle": "~1.3",
+        "jms/metadata": "^2.0"
     },
     "require-dev": {
         "symfony/validator": "~2.3|~3.0",
